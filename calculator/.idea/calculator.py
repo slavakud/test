@@ -7,9 +7,9 @@ class calculator():
         print(x/y)
     def mult():
         print(x*y)
-x = int(input("Введите число"))
-y = int(input("Введите число"))
-z = input("Введите действие")
+x = int(input("Введите число 1"))
+y = int(input("Введите число 2"))
+z = input("Введите действие -")
 if z=='+':
     calculator.summa()
 if z=='-':
