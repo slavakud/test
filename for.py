@@ -6,7 +6,7 @@ for number in range(10):
     while count== number:
         count+=1
         print(smile)
-        smile=smile+'\U0001f600'
+        smile=smile+'\U0001f60015'
 
 
 
