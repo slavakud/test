@@ -13,7 +13,7 @@ def wait (*n):
 # return func
 
 
-@wait(6)
+@wait(7)
 def summ(*args,**kwargs):
     sum=0
     for number in range(1,len(args)):
