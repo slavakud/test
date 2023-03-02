@@ -1,11 +1,10 @@
-
+from datetime import date
 class Callories():
     x=0
     def __init__(self, amount, comment, date):
         self.amount = amount
         self.comment = comment
         self.date = date
-
         Callories.summ(self)
 
     def __str__(self):
@@ -28,11 +27,13 @@ i=3
 while t ==0:
     if input("Хотите добавить данные?")=="да":
         name.append(input ("Введите имя переменной"))
-        name[i]=Callories(int(input ("Введите amount")),input ("Введите comment"),input ("Введите date"))
+
+        name[i]=Callories(int(input ("Введите amount")),input ("Введите comment"),date.fromisoformat(input ("Введите date")))
         i+=1
     else:t=1
 for values in name:
     Callories.print_name(values)
+print(Callories.x)
 
 
 
