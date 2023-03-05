@@ -1,4 +1,4 @@
-from decimal import Decimal
+
 class Calculator():
     record=[]
     def __init__(self,limit_cal,currency,rub, usd,eur):
